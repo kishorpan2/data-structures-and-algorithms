@@ -32,7 +32,6 @@ Within the addNumbers function, invoke the callback function as many times as ne
 
 Return the modified array.
 ------------------------------------------------------------------------------------------------ */
-addNumbers(8, [], 5, addValues)
 
 const addValues = (arr, value) => {
   arr.push(value);
@@ -40,10 +39,11 @@ const addValues = (arr, value) => {
 };
 
 const addNumbers = (num, arr, times, callback) => {
-  // for loop 
+  for (let i=0;i<times.length;i++) {
   // invoke the function inside the loop
-  //
-  //return arr;
+    addNumbers();
+  }
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
