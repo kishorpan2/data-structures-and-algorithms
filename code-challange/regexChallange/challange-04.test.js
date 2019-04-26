@@ -30,11 +30,11 @@ Return an array containing all the matches.
     
 //   });
 // }
-const isCapitalized = (str) => {
+const isCapatalized = (str) => {
   let arr =str.split(' ');
   let resultArr = [];
-  arr.forEach(word => {
-    if (word.match(/^[A-Z]B/)){
+  arr.forEach(word => { console.log(word);
+    if (word.match(/^[A-Z]/)){
       resultArr.push(word);
     }
   });
