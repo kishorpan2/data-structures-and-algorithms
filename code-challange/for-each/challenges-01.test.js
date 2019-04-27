@@ -35,13 +35,12 @@ Return the modified array.
 
 const addValues = (arr, value) => {
   arr.push(value);
-
 };
 
 const addNumbers = (num, arr, times, callback) => {
-  for (let i=0;i<times.length;i++) {
+  for (let i=0;i<times;i++) {
   // invoke the function inside the loop
-    addNumbers();
+    callback(arr,num);
   }
   return arr;
 };
@@ -60,10 +59,17 @@ Return the modified array.
 
 const removeOne = (num, arr) => {
   // Solution code here...
+  if (num%3===2){
+    arr.pop();
+  }
 };
 
 const removeElements = (arr, callback) => {
   // Solution code here...
+  for(let i=0;i<arr.length;i++){
+    callback(arr[i],arr);
+  }
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -74,6 +80,10 @@ Write a function named removeWithForEach that produces the same output as challe
 
 const removeWithForEach = (arr, callback) => {
   // Solution code here...
+  arr.forEach((arrows)=>{
+    callback(arrows,arr);
+  });
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -88,6 +98,12 @@ This anonymous function should accept up to three arguments: the element, the in
 
 const removeWithAnon = (arr) => {
   // Solution code here...
+  arr.forEach((el,idx,arr)=>{
+    if (el%3===2){
+      arr.pop();
+    }
+  });
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -109,6 +125,13 @@ This function should use forEach to populate your grocery list based on the stor
 
 const createList = (availableItems) => {
   // Solution code here...
+  let basket =[];
+  availableItems.forEach((grocery)=>{
+    if (grocery.available===true) {
+      basket.push(grocery.name);
+    }
+  });
+  return basket;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -127,6 +150,16 @@ Return the resulting output array.
 
 const fizzbuzz = (arr) => {
   // Solution code here...
+  let outPutArray =[];
+  arr.forEach((potato,idx)=>{
+    if((potato%3===0) && (potato%5===0)){ outPutArray[idx] ='Fizz Buzz';}
+    else if(potato%3===0) {outPutArray[idx] ='Fizz';}
+    else if(potato%5===0) {outPutArray[idx] ='Buzz';}
+    else{outPutArray[idx]=potato;
+
+    }
+  });
+  return outPutArray;
 };
 
 /* ------------------------------------------------------------------------------------------------
