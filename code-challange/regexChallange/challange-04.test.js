@@ -12,10 +12,8 @@ For example:
 'hello world' returns false
 ------------------------------------------------------------------------------------------------ */
 
-const isNum = (input) => {
-  let regNum = /\d/;
-  return regNum.test(input);
-};
+const isNum = (input) => (/\d/).test(input);
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
@@ -24,23 +22,15 @@ Write a function named isCapitalized that takes in a string. This function shoul
 
 Return an array containing all the matches.
 ------------------------------------------------------------------------------------------------ */
-    
-// The result can be accessed through the `m`-variable.
-//   m.forEach((match, groupIndex) => {
-    
-//   });
-// }
-const isCapatalized = (str) => {
-  let arr =str.split(' ');
-  let resultArr = [];
-  arr.forEach(word => { console.log(word);
-    if (word.match(/^[A-Z]/)){
-      resultArr.push(word);
-    }
-  });
-  return resultArr;
-};
 
+const isCapitalized = (str) => {
+  // Solution code here...
+  if (str.match(/[A-Z]\w+/g) ===null) {
+    return[];
+  }else{
+    return (str.match(/[A-Z]\w+/g));
+  }
+};
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 3
@@ -49,8 +39,15 @@ Write a function named citiesAtoJ that takes in an array of city names and uses 
 ------------------------------------------------------------------------------------------------ */
 
 const citiesAtoJ = (arr) => {
-  const subCities = /[A-J]\w+/g;
-  return subCities(arr);
+  // Solution code here...
+  let rule = /^[A-J]\w+/;
+  let resultArr =[];
+  arr.forEach(item=>{
+    if(rule.test(item)){
+      resultArr.push(item);
+    }
+  });
+  return resultArr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -65,9 +62,8 @@ If the user enters any of these four inputs, return true. For any other input, r
 Do not use the vertical bar (pipe) in your pattern.
 ------------------------------------------------------------------------------------------------ */
 
-const matchMonth = (input) => {
-  // Solution code here...
-};
+const matchMonth = (input) => /^[Oo]ct(ober)*$/.test(input);
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5
@@ -79,9 +75,7 @@ For example, if given the string "Hello, and have a wonderful day!", the word "H
 The expected output of "Hello, and have a wonderful day!" is ["and ", "have ", "a ", "wonderful "].
 ------------------------------------------------------------------------------------------------ */
 
-const noPunctuation = str => {
-  // Solution code here...
-};
+const noPunctuation = str => str.match(/\w+ /g);
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
@@ -95,10 +89,7 @@ The function should return a string containing the consonants in their original 
 For example, 'Welcome to Code 301!' will return 'W_lc_m_ t_ C_d_ 301!'.
 ------------------------------------------------------------------------------------------------ */
 
-let hangman = (str) => {
-  let newstr = str.replace(hangman, 'a, e, i, o, u');
-  return newstr;
-};
+let hangman = (str) => str.replace(/[aeiou]/gi,'_');
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 7 - Stretch Goal
@@ -127,19 +118,19 @@ Run your tests from the console: jest challenges-04.solution.test.js
 
 ------------------------------------------------------------------------------------------------ */
 
-// describe('Testing challenge 1', () => {
-//   test('It should return true if the input is a number', () => {
-//     expect(isNum(1234567890)).toBeTruthy();
-//     expect(isNum('12345')).toBeTruthy();
-//   });
-//   test('It should return true if the input contains a number', () => {
-//     expect(isNum('h3llo w0rld')).toBeTruthy();
-//   });
-//   test('It should return false if the input does not contain a number', () => {
-//     expect(isNum('hello world')).toBeFalsy();
-//     expect(isNum('')).toBeFalsy();
-//   });
-// });
+describe('Testing challenge 1', () => {
+  test('It should return true if the input is a number', () => {
+    expect(isNum(1234567890)).toBeTruthy();
+    expect(isNum('12345')).toBeTruthy();
+  });
+  test('It should return true if the input contains a number', () => {
+    expect(isNum('h3llo w0rld')).toBeTruthy();
+  });
+  test('It should return false if the input does not contain a number', () => {
+    expect(isNum('hello world')).toBeFalsy();
+    expect(isNum('')).toBeFalsy();
+  });
+});
 
 describe('Testing challenge 2', () => {
   test('It should only return words that begin with a capital letter', () => {
@@ -170,54 +161,54 @@ describe('Testing challenge 3', () => {
   });
 });
 
-// describe('Testing challenge 4', () => {
-//   test('It should match any of the acceptable inputs', () => {
-//     expect(matchMonth('Oct')).toBeTruthy();
-//     expect(matchMonth('oct')).toBeTruthy();
-//     expect(matchMonth('October')).toBeTruthy();
-//     expect(matchMonth('october')).toBeTruthy();
-//   });
+describe('Testing challenge 4', () => {
+  test('It should match any of the acceptable inputs', () => {
+    expect(matchMonth('Oct')).toBeTruthy();
+    expect(matchMonth('oct')).toBeTruthy();
+    expect(matchMonth('October')).toBeTruthy();
+    expect(matchMonth('october')).toBeTruthy();
+  });
 
-//   test('It should not match anything other than the acceptable inputs', () => {
-//     expect(matchMonth('November')).toBeFalsy();
-//     expect(matchMonth('nov')).toBeFalsy();
-//     expect(matchMonth(123)).toBeFalsy();
-//     expect(matchMonth('octob')).toBeFalsy();
-//     expect(matchMonth('OCTOBER')).toBeFalsy();
-//     expect(matchMonth('notOctober')).toBeFalsy();
-//   });
-// });
+  test('It should not match anything other than the acceptable inputs', () => {
+    expect(matchMonth('November')).toBeFalsy();
+    expect(matchMonth('nov')).toBeFalsy();
+    expect(matchMonth(123)).toBeFalsy();
+    expect(matchMonth('octob')).toBeFalsy();
+    expect(matchMonth('OCTOBER')).toBeFalsy();
+    expect(matchMonth('notOctober')).toBeFalsy();
+  });
+});
 
-// describe('Testing challenge 5', () => {
-//   const lorem = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia vel massa sed egestas. Nunc faucibus iaculis elit, a scelerisque enim condimentum sed. Aenean ac scelerisque sem, et pharetra diam.';
+describe('Testing challenge 5', () => {
+  const lorem = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia vel massa sed egestas. Nunc faucibus iaculis elit, a scelerisque enim condimentum sed. Aenean ac scelerisque sem, et pharetra diam.';
 
-//   test('It should only return words that are immediately followed by a space', () => {
-//     expect(noPunctuation(lorem)).toStrictEqual([ 'Lorem ', 'ipsum ', 'dolor ', 'sit ', 'consectetur ', 'adipiscing ', 'Cras ', 'lacinia ', 'vel ', 'massa ', 'sed ', 'Nunc ', 'faucibus ', 'iaculis ', 'a ', 'scelerisque ', 'enim ', 'condimentum ', 'Aenean ', 'ac ', 'scelerisque ', 'et ', 'pharetra ' ]);
-//     expect(noPunctuation(lorem).length).toStrictEqual(23);
-//     expect(noPunctuation('Given by our hand in the meadow that is called Runnymede, between Windsor and Staines, on the fifteenth day of June in the seventeenth year of our reign (i.e. 1215: the new regnal year began on 28 May).')).toEqual(expect.arrayContaining(['Given ', 'by ', 'our ', 'hand ', 'in ', 'the ', 'meadow ', 'that ', 'is ', 'called ', 'between ', 'Windsor ', 'and ', 'on ', 'the ', 'fifteenth ', 'day ', 'of ', 'June ', 'in ', 'the ', 'seventeenth ', 'year ', 'of ', 'our ', 'reign ', 'the ', 'new ', 'regnal ', 'year ', 'began ', 'on ', '28 ']));
-//   });
+  test('It should only return words that are immediately followed by a space', () => {
+    expect(noPunctuation(lorem)).toStrictEqual([ 'Lorem ', 'ipsum ', 'dolor ', 'sit ', 'consectetur ', 'adipiscing ', 'Cras ', 'lacinia ', 'vel ', 'massa ', 'sed ', 'Nunc ', 'faucibus ', 'iaculis ', 'a ', 'scelerisque ', 'enim ', 'condimentum ', 'Aenean ', 'ac ', 'scelerisque ', 'et ', 'pharetra ' ]);
+    expect(noPunctuation(lorem).length).toStrictEqual(23);
+    expect(noPunctuation('Given by our hand in the meadow that is called Runnymede, between Windsor and Staines, on the fifteenth day of June in the seventeenth year of our reign (i.e. 1215: the new regnal year began on 28 May).')).toEqual(expect.arrayContaining(['Given ', 'by ', 'our ', 'hand ', 'in ', 'the ', 'meadow ', 'that ', 'is ', 'called ', 'between ', 'Windsor ', 'and ', 'on ', 'the ', 'fifteenth ', 'day ', 'of ', 'June ', 'in ', 'the ', 'seventeenth ', 'year ', 'of ', 'our ', 'reign ', 'the ', 'new ', 'regnal ', 'year ', 'began ', 'on ', '28 ']));
+  });
 
-//   test('It should not contain words that are followed by any non-space character', () => {
-//     expect(noPunctuation(lorem)).not.toContain(['amet,', 'elit.', 'egestas.', 'elit,', 'sed.', 'sem,', 'diam.', 'nibh.', 'porttitor.', 'euismod,', 'ultrices.', 'massa,', 'vel,', 'purus.', 'purus,', 'odio.', 'aliquet,', 'non,', 'sem.']);
-//   });
-// });
+  test('It should not contain words that are followed by any non-space character', () => {
+    expect(noPunctuation(lorem)).not.toContain(['amet,', 'elit.', 'egestas.', 'elit,', 'sed.', 'sem,', 'diam.', 'nibh.', 'porttitor.', 'euismod,', 'ultrices.', 'massa,', 'vel,', 'purus.', 'purus,', 'odio.', 'aliquet,', 'non,', 'sem.']);
+  });
+});
 
-// describe('Testing challenge 6', () => {
-//   let startString = 'This is a regex challenge. We are trying to create a hangman phrase where all of the vowels are missing!';
+describe('Testing challenge 6', () => {
+  let startString = 'This is a regex challenge. We are trying to create a hangman phrase where all of the vowels are missing!';
 
-//   test('It should remove the vowels from the hangman string and replace them with underscores', () => {
-//     expect(hangman(startString)).toStrictEqual('Th_s _s _ r_g_x ch_ll_ng_. W_ _r_ try_ng t_ cr__t_ _ h_ngm_n phr_s_ wh_r_ _ll _f th_ v_w_ls _r_ m_ss_ng!');
-//     expect(hangman('I wAnt them all tO bE removed and replaced with Underscores.')).toStrictEqual('_ w_nt th_m _ll t_ b_ r_m_v_d _nd r_pl_c_d w_th _nd_rsc_r_s.');
-//   });
+  test('It should remove the vowels from the hangman string and replace them with underscores', () => {
+    expect(hangman(startString)).toStrictEqual('Th_s _s _ r_g_x ch_ll_ng_. W_ _r_ try_ng t_ cr__t_ _ h_ngm_n phr_s_ wh_r_ _ll _f th_ v_w_ls _r_ m_ss_ng!');
+    expect(hangman('I wAnt them all tO bE removed and replaced with Underscores.')).toStrictEqual('_ w_nt th_m _ll t_ b_ r_m_v_d _nd r_pl_c_d w_th _nd_rsc_r_s.');
+  });
 
-//   test('It should not contain the letters "a", "e", "i", "o", or "u"', () => {
-//     expect(hangman(startString)).not.toContain('a', 'e', 'i', 'o', 'u');
-//   });
-// });
+  test('It should not contain the letters "a", "e", "i", "o", or "u"', () => {
+    expect(hangman(startString)).not.toContain('a', 'e', 'i', 'o', 'u');
+  });
+});
 
-// describe('Testing challenge 7', () => {
-//   test('It should return an array of instances of "sells", shells", and "seashells"', () => {
-//     expect(findShells(seashells)).toStrictEqual(['sells', 'seashells', 'shells', 'sells', 'seashells', 'sells', 'shells', 'sells', 'shells']);
-//     expect(findShells(seashells).length).toStrictEqual(9);
-//   });
-// });
+xdescribe('Testing challenge 7', () => {
+  test('It should return an array of instances of "sells", shells", and "seashells"', () => {
+    expect(findShells(seashells)).toStrictEqual(['sells', 'seashells', 'shells', 'sells', 'seashells', 'sells', 'shells', 'sells', 'shells']);
+    expect(findShells(seashells).length).toStrictEqual(9);
+  });
+});
