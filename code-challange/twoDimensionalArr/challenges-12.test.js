@@ -203,9 +203,9 @@ const excel = (str) => {
   // Solution code here...
   const sums =[];
   const rows =str.split('\n');
-  rows.forEach(=>{
-    let sum =0;
-    const cols = rows.split(',');
+  rows.forEach( row=> {
+    let sum = 0;
+    const cols = row.split(',');
     cols.forEach(col=>{
       const num = parseInt(col)
       sum =sum+num;
