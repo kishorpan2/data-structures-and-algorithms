@@ -8,4 +8,4 @@
 <!-- I used an approach to find the mid index of the array and insert in that index -->
 
 ## Solution
-(https://github.com/kishorpan2/data-structures-and-algorithms/blob/master/code401Challenges/assets/Image%20from%20iOS%20(1).jpg)
+![Whiteboard](https://github.com/kishorpan2/data-structures-and-algorithms/blob/master/code401Challenges/assets/Image%20from%20iOS%20(1).jpg)
