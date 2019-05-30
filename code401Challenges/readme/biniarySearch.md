@@ -8,4 +8,4 @@
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 
 ## Solution
-[White Board](../assets/biniarySearch.jpg)
+![White Board](../assets/biniarySearch.jpg)
