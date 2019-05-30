@@ -8,4 +8,5 @@
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 
 ## Solution
+[Code](../src/main/java/code401Challenges/biniarySearch.java)
 ![White Board](../assets/biniarySearch.jpg)
