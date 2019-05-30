@@ -5,3 +5,4 @@
 ### Table of Contents
 
 1. [Array Shift](code401Challenges/readme/arrayShift.md)
+2. [Biniary search](code401Challenges/readme/biniarySearch.md)
