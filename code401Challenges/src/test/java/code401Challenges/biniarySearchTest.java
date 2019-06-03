@@ -14,7 +14,6 @@ public class biniarySearchTest {
         assertEquals(0, biniarySearch.biniarySearch(two,102));
 //        assertEquals(0, biniarySearch.biniarySearch(three,1));
 //        assertEquals(2, biniarySearch.biniarySearch(two,15));
-
     }
 
 }
