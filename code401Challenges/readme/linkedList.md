@@ -12,4 +12,4 @@
  * Includes
  * Print
  
- [code](../src/main/java/code401Challenges/linkedlist/linkedList) | [Test]()
+ [code](../src/main/java/code401Challenges/linkedlist/LinkedList) | [Test]()
