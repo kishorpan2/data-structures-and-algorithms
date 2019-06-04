@@ -1,14 +1,15 @@
 # Singly Linked List
- This 
+ Singly Linked List is a linear collection of data elements. 
  
  ## Challenge
- <!-- Description of the challenge -->
+This challenge has a inner Node class. In the LinkedList class is a head property. When instantiated, an empty LinkedList is created. The class has methods that can be able to insert, include and print date or values.
  
  ## Approach & Efficiency
- <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+ O(1) Linear
  
  ## API
  * Insert
+ 
  * Includes
  * Print
  
