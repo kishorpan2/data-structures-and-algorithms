@@ -10,6 +10,6 @@ This challenge will implement three methods to append to a node, insert before a
 ## Solution
 [code](../src/main/java/code401Challenges/linkedlist/LinkedList.java) | [Test](../src/test/java/code401Challenges/linkedlist/LinkedListTest.java)
 
-![White Board](./assets/linkedlist1.jpg) 
+![White Board](../assets/linkedlist1.jpg) 
 
 
