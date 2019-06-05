@@ -2,13 +2,12 @@
 This repo contains my practice and adventures in Data Structures and Algorithms. 
 ## Week 1 | Arrays
 - [Day 1: Array Reverse](/otherReadMes/array-reverse.md) 
-- [Day 2: Array Shift](/otherReadMes/array-shift.md)
-- [Day 3: Binary Search](https://github.com/kishorpan2/data-structures-and-algorithms/blob/master/code401Challenges/readme/biniarySearch.md)
-- Day 4: 2D Array Sum
+- [Day 2: Array Shift](./readme/arrayShift.md)
+- [Day 3: Binary Search](./readme/biniarySearch.md)
 ## Week 2 | Linked Lists
-- [Day 5: Linked Lists](/otherReadMes/linked-list.md)
-- [Day 6: Linked Lists Part 2](/otherReadMes/linked-list-part-2.md)
-- [Day 7: Linked Lists Part 3](/otherReadMes/linked-list-part-3.md)
+- [Day 5: Linked Lists](./readme/LinkedListcc1.md)
+- [Day 6: Linked Lists Part 2](./readme/LinkedListKthvalue.md)
+- [Day 7: Linked Lists Part 3](./readme/LinkedListcc1.md)
 - Day 8: Linked Lists Part 4
 ## Week 3 | Stacks & Queues
 - [Day 9: Stacks and Queues](/otherReadMes/stacks-and-queues.md)
