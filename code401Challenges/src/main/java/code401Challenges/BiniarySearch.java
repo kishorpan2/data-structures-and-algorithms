@@ -1,6 +1,6 @@
 package code401Challenges;
 
-public class biniarySearch {
+public class BiniarySearch {
     public static void main (String args){
         int [] one ={45, 38, 35, 28, 15};
         int [] two ={102, 109, 115};
