@@ -98,5 +98,30 @@ public class LinkedList <K>{
 
             }
         }
+
+    }
+
+    // this method will take in a value to insert from the end
+    public int kFromEnd(int k) {
+        Node<K>current = this.head;
+        int size =0;
+        while (current != null){
+            size++;
+            current = current.next;
+        }
+        int delK = size-k;
+        if (delK <=0 || k< 0){
+            return -1;
+        }else{
+            current = this.head;
+            for(int i =0; i<delK; i++){
+                if(i == delK-1){
+
+                }else{
+                    current = current.next;
+                }
+            }
+        }
+        return -1;
     }
 }

@@ -11,9 +11,9 @@ public class biniarySearchTest {
         int [] two = {102, 109, 115};
         int [] three = {};
 
-        assertEquals(0, biniarySearch.biniarySearch(two,102));
-//        assertEquals(0, biniarySearch.biniarySearch(three,1));
-//        assertEquals(2, biniarySearch.biniarySearch(two,15));
+        assertEquals(0, BiniarySearch.biniarySearch(two,102));
+        assertEquals(0, BiniarySearch.biniarySearch(three,1));
+        assertEquals(2, BiniarySearch.biniarySearch(two,15));
     }
 
 }
