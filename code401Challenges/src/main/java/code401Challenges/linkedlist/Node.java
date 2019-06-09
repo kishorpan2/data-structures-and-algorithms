@@ -1,13 +1,13 @@
 package code401Challenges.linkedlist;
 
-public class Node <K>{
+public class Node {
     // Instance variables
-    public K data;
-    public Node next;
+    int value;
+    Node next;
 
     // Constructor
-    public Node(K data, Node next){
-        this.data = data;
-        this.next =next;
+    public Node(){
+        this.value = 0;
+        this.next =null;
     }
 }
