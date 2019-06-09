@@ -13,4 +13,5 @@ This challenge has a inner Node class. In the LinkedList class is a head propert
  * Includes
  * Print
  
- [code](../src/main/java/code401Challenges/linkedlist/LinkedList.java) | [Test](../src/test/java/code401Challenges/linkedlist/LinkedListTest.java)
+ [code](../src/main/java/code401Challenges/linkedlist/LinkedList.java) | 
+ [Test](../src/test/java/code401Challenges/linkedlist/LinkedListTest.java)
