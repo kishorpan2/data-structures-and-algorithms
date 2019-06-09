@@ -7,7 +7,7 @@ This repo contains my practice and adventures in Data Structures and Algorithms.
 ## Week 2 | Linked Lists
 - [Day 5: Linked Lists](./readme/LinkedListcc1.md)
 - [Day 6: Linked Lists Part 2](./readme/LinkedListKthvalue.md)
-- [Day 7: Linked Lists Part 3](./readme/LinkedListcc1.md)
+- [Day 7: Linked Lists Part 3](./readme/LinkedListZip.md)
 - Day 8: Linked Lists Part 4
 ## Week 3 | Stacks & Queues
 - [Day 9: Stacks and Queues](/otherReadMes/stacks-and-queues.md)
