@@ -10,10 +10,10 @@ This repo contains my practice and adventures in Data Structures and Algorithms.
 - [Day 7: Linked Lists Part 3](./readme/LinkedListZip.md)
 - Day 8: Linked Lists Part 4
 ## Week 3 | Stacks & Queues
-- [Day 9: Stacks and Queues](/otherReadMes/stacks-and-queues.md)
-- [Day 10: Stacks and Queues Part 2](/otherReadMes/stacks-and-queues-part-2.md)
-- [Day 11: Stacks and Queues Part 3](/otherReadMes/stacks-and-queues-part-3.md)
-- [Day 12: Stacks and Queues Part 4](/otherReadMes/stacks-and-queues-part-4.md)
+- [Day 9: Stacks and Queues](./readme/Stack&Queue.md)
+- [Day 10: Stacks and Queues Part 2](./readme/Stack&Queue.md)
+- [Day 11: Stacks and Queues Part 3](./readme/Stack&Queue.md)
+- [Day 12: Stacks and Queues Part 4](./readme/Stack&Queue.md)
 ## Week 4 | Trees
 - [Day 13: Trees](/otherReadMes/trees.md)
 - [Day 14: Trees Part 2](/otherReadMes/trees-part-2.md)
