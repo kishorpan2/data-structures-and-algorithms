@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b2b5ae9-fdde-4098-a486-3e2f064165da" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme/LinkedListKthvalue.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme/LinkedListKthvalue.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme/LinkedListZip.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme/LinkedListZip.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme/LinkedListcc1.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme/LinkedListcc1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme/linkedList.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme/linkedList.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -28,67 +26,68 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/linkedlist/LinkedList.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="210" column="5" selection-start-line="210" selection-start-column="5" selection-end-line="210" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Stack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="10" column="52" lean-forward="true" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/stacksandqueues/StackTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="957">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="210">
+                <caret line="14" column="61" lean-forward="true" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="330">
-                <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/linkedlist/LinkedListTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Queue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2340">
-              <caret line="156" column="26" selection-start-line="156" selection-start-column="26" selection-end-line="156" selection-end-column="26" />
+            <state relative-caret-position="375">
+              <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#884#885#0" expanded="true" />
+                <element signature="e#917#918#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/stacksandqueues/QueueTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="833" selection-start-line="833" selection-end-line="833" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/insertShiftArrayTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="960">
+              <caret line="64" column="65" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/readme/LinkedListcc1.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="255">
-                <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -118,11 +117,17 @@
         <option value="$PROJECT_DIR$/src/test/java/code401Challenges/biniarySearchTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/code401Challenges/linkedlist/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/test/java/code401Challenges/linkedlist/LinkedListTest.java" />
-        <option value="$PROJECT_DIR$/readme/linkedList.md" />
         <option value="$PROJECT_DIR$/readme/LinkedListZip.md" />
         <option value="$PROJECT_DIR$/readme/LinkedListKthvalue.md" />
         <option value="$PROJECT_DIR$/readme/LinkedListcc1.md" />
+        <option value="$PROJECT_DIR$/src/test/java/code401Challenges/stacksandqueues/StackTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Queue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Stack.java" />
+        <option value="$PROJECT_DIR$/readme/linkedList.md" />
+        <option value="$PROJECT_DIR$/readme/Stack&amp;Queue.md" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/src/test/java/code401Challenges/stacksandqueues/QueueTest.java" />
       </list>
     </option>
   </component>
@@ -136,7 +141,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,6 +197,15 @@
               <item name="code401Challenges" type="b2602c69:ProjectViewProjectNode" />
               <item name="code401Challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code401Challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="stacksandqueues" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code401Challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code401Challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -217,23 +230,25 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="code401Challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
+              <item name="stacksandqueues" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560044114351" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560193506609" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="code401Challenges.stacksandqueues" />
       <recent name="code401Challenges.linkedlist" />
       <recent name="code401Challenges" />
     </key>
@@ -256,82 +271,81 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListTest.testMergedBothEmpty">
-    <configuration name="LinkedListTest.testKthMultiValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.QueueTest.testPeek">
+    <configuration name="QueueTest.testPeek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401Challenges.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code401Challenges.linkedlist.*" />
+          <option name="PATTERN" value="code401Challenges.stacksandqueues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="code401Challenges.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="code401Challenges.linkedlist.LinkedListTest" />
-      <option name="METHOD_NAME" value="testKthMultiValue" />
+      <option name="PACKAGE_NAME" value="code401Challenges.stacksandqueues" />
+      <option name="MAIN_CLASS_NAME" value="code401Challenges.stacksandqueues.QueueTest" />
+      <option name="METHOD_NAME" value="testPeek" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.testKthNegValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QueueTest.testQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401Challenges.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code401Challenges.linkedlist.*" />
+          <option name="PATTERN" value="code401Challenges.stacksandqueues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="code401Challenges.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="code401Challenges.linkedlist.LinkedListTest" />
-      <option name="METHOD_NAME" value="testKthNegValue" />
+      <option name="PACKAGE_NAME" value="code401Challenges.stacksandqueues" />
+      <option name="MAIN_CLASS_NAME" value="code401Challenges.stacksandqueues.QueueTest" />
+      <option name="METHOD_NAME" value="testQueue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.testKthOneValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401Challenges.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code401Challenges.linkedlist.*" />
+          <option name="PATTERN" value="code401Challenges.stacksandqueues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="code401Challenges.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="code401Challenges.linkedlist.LinkedListTest" />
-      <option name="METHOD_NAME" value="testKthOneValue" />
+      <option name="PACKAGE_NAME" value="code401Challenges.stacksandqueues" />
+      <option name="MAIN_CLASS_NAME" value="code401Challenges.stacksandqueues.StackTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackTest.testPeek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code401Challenges.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code401Challenges.stacksandqueues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="code401Challenges.stacksandqueues" />
+      <option name="MAIN_CLASS_NAME" value="code401Challenges.stacksandqueues.StackTest" />
+      <option name="METHOD_NAME" value="testPeek" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.testMergedBothEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StackTest.testPop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401Challenges.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code401Challenges.linkedlist.*" />
+          <option name="PATTERN" value="code401Challenges.stacksandqueues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="code401Challenges.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="code401Challenges.linkedlist.LinkedListTest" />
-      <option name="METHOD_NAME" value="testMergedBothEmpty" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListTest.testMergedListOneEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code401Challenges.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="code401Challenges.linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="code401Challenges.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="code401Challenges.linkedlist.LinkedListTest" />
-      <option name="METHOD_NAME" value="testMergedListOneEmpty" />
+      <option name="PACKAGE_NAME" value="code401Challenges.stacksandqueues" />
+      <option name="MAIN_CLASS_NAME" value="code401Challenges.stacksandqueues.StackTest" />
+      <option name="METHOD_NAME" value="testPop" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -339,11 +353,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LinkedListTest.testMergedBothEmpty" />
-        <item itemvalue="JUnit.LinkedListTest.testMergedListOneEmpty" />
-        <item itemvalue="JUnit.LinkedListTest.testKthMultiValue" />
-        <item itemvalue="JUnit.LinkedListTest.testKthOneValue" />
-        <item itemvalue="JUnit.LinkedListTest.testKthNegValue" />
+        <item itemvalue="JUnit.QueueTest.testPeek" />
+        <item itemvalue="JUnit.QueueTest.testQueue" />
+        <item itemvalue="JUnit.StackTest.testPeek" />
+        <item itemvalue="JUnit.StackTest.testPop" />
+        <item itemvalue="JUnit.StackTest" />
       </list>
     </recent_temporary>
   </component>
@@ -361,42 +375,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LinkedListTest_testKthOneValue - 2019.06.08 at 16h 16m 13s.xml">
-      <configuration name="LinkedListTest.testKthOneValue" configurationId="JUnit" />
+    <history-entry file="StackTest_testPop - 2019.06.10 at 10h 18m 13s.xml">
+      <configuration name="StackTest.testPop" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListTest_testKthOneValue - 2019.06.08 at 16h 17m 01s.xml">
-      <configuration name="LinkedListTest.testKthOneValue" configurationId="JUnit" />
+    <history-entry file="StackTest_testPop - 2019.06.10 at 10h 18m 33s.xml">
+      <configuration name="StackTest.testPop" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListTest_testKthOneValue - 2019.06.08 at 16h 17m 16s.xml">
-      <configuration name="LinkedListTest.testKthOneValue" configurationId="JUnit" />
+    <history-entry file="StackTest_testPop - 2019.06.10 at 10h 18m 58s.xml">
+      <configuration name="StackTest.testPop" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListTest_testKthMultiValue - 2019.06.08 at 16h 19m 25s.xml">
-      <configuration name="LinkedListTest.testKthMultiValue" configurationId="JUnit" />
+    <history-entry file="StackTest_testPop - 2019.06.10 at 10h 19m 49s.xml">
+      <configuration name="StackTest.testPop" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListTest_testKthMultiValue - 2019.06.08 at 16h 20m 02s.xml">
-      <configuration name="LinkedListTest.testKthMultiValue" configurationId="JUnit" />
+    <history-entry file="StackTest_testPop - 2019.06.10 at 10h 21m 34s.xml">
+      <configuration name="StackTest.testPop" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListTest_testMergedListOneEmpty - 2019.06.08 at 17h 15m 24s.xml">
-      <configuration name="LinkedListTest.testMergedListOneEmpty" configurationId="JUnit" />
+    <history-entry file="StackTest_testPeek - 2019.06.10 at 10h 27m 10s.xml">
+      <configuration name="StackTest.testPeek" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListTest_testMergedListOneEmpty - 2019.06.08 at 17h 18m 34s.xml">
-      <configuration name="LinkedListTest.testMergedListOneEmpty" configurationId="JUnit" />
+    <history-entry file="QueueTest_testQueue - 2019.06.10 at 10h 32m 08s.xml">
+      <configuration name="QueueTest.testQueue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListTest_testMergedBothEmpty - 2019.06.08 at 17h 19m 55s.xml">
-      <configuration name="LinkedListTest.testMergedBothEmpty" configurationId="JUnit" />
+    <history-entry file="QueueTest_testPeek - 2019.06.10 at 12h 00m 35s.xml">
+      <configuration name="QueueTest.testPeek" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListTest_testMergedBothEmpty - 2019.06.08 at 17h 20m 05s.xml">
-      <configuration name="LinkedListTest.testMergedBothEmpty" configurationId="JUnit" />
+    <history-entry file="QueueTest_testPeek - 2019.06.10 at 12h 00m 56s.xml">
+      <configuration name="QueueTest.testPeek" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListTest_testMergedBothEmpty - 2019.06.08 at 17h 20m 15s.xml">
-      <configuration name="LinkedListTest.testMergedBothEmpty" configurationId="JUnit" />
+    <history-entry file="QueueTest_testPeek - 2019.06.10 at 12h 01m 13s.xml">
+      <configuration name="QueueTest.testPeek" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49835527" visible="true" weight="0.18597998" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49835527" visible="true" weight="0.19027181" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -405,7 +419,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50164473" side_tool="true" weight="0.18168813" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26746988" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26746988" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -446,7 +460,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shiftArray/readme.md" />
     <entry file="file://$PROJECT_DIR$/readme/arrayShift.md">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="165">
@@ -455,17 +468,18 @@
           <second_editor />
         </state>
       </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/readme/biniarySearch.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -486,17 +500,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/linkedlist/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/insertShiftArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/LL.zip.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme/LinkedListKthvalue.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme/LinkedListcc1.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="255">
+            <caret line="17" selection-start-line="17" selection-end-line="17" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -510,46 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/LL.zip.JPG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/linkedlist/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="210" column="5" selection-start-line="210" selection-start-column="5" selection-end-line="210" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme/LinkedListZip.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="12" selection-start-line="12" selection-end-line="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/linkedlist/LinkedListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2340">
-          <caret line="156" column="26" selection-start-line="156" selection-start-column="26" selection-end-line="156" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme/LinkedListKthvalue.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="135">
-            <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -557,38 +547,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme/linkedList.md">
+    <entry file="file://$PROJECT_DIR$/readme/LinkedListZip.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="240">
-            <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <first_editor relative-caret-position="225">
+            <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme/LinkedListcc1.md">
+    <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/linkedlist/LinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="753">
+          <caret line="156" column="26" selection-start-line="156" selection-start-column="26" selection-end-line="156" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/linkedlist/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="210" column="5" selection-start-line="210" selection-start-column="5" selection-end-line="210" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/linkedlist/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="52" lean-forward="true" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme/linkedList.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <first_editor relative-caret-position="195">
+            <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="210">
+            <caret line="14" column="61" lean-forward="true" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme/Stack&amp;Queue.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="330">
-            <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/stacksandqueues/StackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="957">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/stacksandqueues/QueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" column="65" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <folding>
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
