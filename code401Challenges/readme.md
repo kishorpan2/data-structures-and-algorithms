@@ -11,7 +11,7 @@ This repo contains my practice and adventures in Data Structures and Algorithms.
 - Day 8: Linked Lists Part 4
 ## Week 3 | Stacks & Queues
 - [Day 9: Stacks and Queues](./readme/Stack&Queue.md)
-- [Day 10: Stacks and Queues Part 2](./readme/Stack&Queue.md)
+- [Day 10: Stacks and Queues Part 2](./readme/PseudoQueue.md)
 - [Day 11: Stacks and Queues Part 3](./readme/Stack&Queue.md)
 - [Day 12: Stacks and Queues Part 4](./readme/Stack&Queue.md)
 ## Week 4 | Trees
