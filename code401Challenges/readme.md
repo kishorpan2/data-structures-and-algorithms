@@ -15,8 +15,8 @@ This repo contains my practice and adventures in Data Structures and Algorithms.
 - [Day 11: Stacks and Queues Part 3](./readme/AnimalShelter.md)
 - [Day 12: Stacks and Queues Part 4](./readme/multibracketvalidation.md)
 ## Week 4 | Trees
-- [Day 13: Trees](/otherReadMes/trees.md)
-- [Day 14: Trees Part 2](/otherReadMes/trees-part-2.md)
+- [Day 13: Trees](./readme/tree.md)
+- [Day 14: Trees Part 2](./readme/FizzBuzz.md)
 - [Day 15: Trees Part 3](/otherReadMes/trees-part-3.md)
 - [Day 16: Trees Part 4](/otherReadMes/trees-part-4.md)
 ## Week 6 | Graphs
