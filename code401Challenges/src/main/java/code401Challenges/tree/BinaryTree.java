@@ -11,74 +11,94 @@ public class BinaryTree<K> {
     public BinaryTree(){
         this.root = null;
     }
-    // this method will determine if it is preOrder, inOrder and postOrder
-
-    public List order(String order){
-        List list = new ArrayList <>();
-
-        if(order.toUpperCase().startsWith("pre")){
-            list = preOrder(list, this.root);
-        }
-        else if(order.toUpperCase().startsWith("in")){
-            list = inOrder(list, this.root);
-        }
-        else if (order.toUpperCase().startsWith("post")){
-            list = postOrder(list, this.root);
-        }
-        else{
-            return null;
-        }
-        return list;
+    public BinaryTree(Node<K> head ){
+        root= head;
+    }
+    public Node<K> getRoot(){
+        return root;
+    }
+    public void setRoot(Node<K> root){
+        this.root = root;
     }
 
     // preOrder
-    public List<K> preOrder(List<K> list, Node<K> node) {
-        list.add(node.value);
 
-        if (node.leftChild != null){
-            preOrder(list, node.leftChild);
-
-        }
-        if(node.rightChild != null){
-            preOrder(list, node.rightChild);
-
-        }
-
+    public ArrayList<K> preOrder( Node<K> node) {
+        ArrayList<K> list = new ArrayList<>();
+        preOrderHelper(node, list);
         return list;
 
     }
 
     // inOrder
-    public List<K> inOrder(List<K> list, Node<K> node) {
-        list.add(node.value);
+    public ArrayList<K> inOrder( Node<K> node) {
+        ArrayList<K> list = new ArrayList<>();
+        inOrderHelper(node, list);
+        return list;
 
-        if (node.leftChild != null){
-            inOrder(list, node.leftChild);
+    }
 
-        }
-        if(node.rightChild != null){
-            inOrder(list, node.rightChild);
-
-        }
-
+    //postOrder
+    public ArrayList<K> postOrder( Node<K> node) {
+        ArrayList<K> list = new ArrayList<>();
+        postOrderHelper(node, list);
         return list;
 
     }
 
 
-    // postOrder
-    public List<K> postOrder(List<K> list, Node<K> node) {
-        list.add(node.value);
+    public void preOrderHelper(Node<K> node,ArrayList<K>list){
+        try{
+            if(node == null){
+                return;
+            }else{
+                list.add(node.getValue());
+                preOrderHelper(node.getLeftChild(),list);
+                preOrderHelper(node.getRightChild(),list);
 
-        if (node.leftChild != null){
-            postOrder(list, node.leftChild);
+            }
+        }catch (NullPointerException e ){
+                System.out.println("this root is null");
+                System.out.println(e);
+
 
         }
-        if(node.rightChild != null){
-            postOrder(list, node.rightChild);
+    }
+    public void inOrderHelper(Node<K> node,ArrayList<K>list){
+        try{
+            if(node == null){
+                return;
+            }else{
+
+                inOrderHelper(node.getLeftChild(),list);
+                list.add(node.getValue());
+                inOrderHelper(node.getRightChild(),list);
+
+            }
+        }catch (NullPointerException e ){
+            System.out.println("this root is null");
+            System.out.println(e);
+
 
         }
-        return list;
+    }
+    public void postOrderHelper(Node<K> node,ArrayList<K>list){
+        try{
+            if(node == null){
+                return;
+            }else{
+
+                postOrderHelper(node.getLeftChild(),list);
+                postOrderHelper(node.getRightChild(),list);
+                list.add(node.getValue());
+
+            }
+        }catch (NullPointerException e ){
+            System.out.println("this root is null");
+            System.out.println(e);
+
+
+        }
     }
 
 }
