@@ -17,7 +17,7 @@ This repo contains my practice and adventures in Data Structures and Algorithms.
 ## Week 4 | Trees
 - [Day 13: Trees](./readme/tree.md)
 - [Day 14: Trees Part 2](./readme/FizzBuzz.md)
-- [Day 15: Trees Part 3](/otherReadMes/trees-part-3.md)
+- [Day 15: Trees Part 3](./Breadth-first Traversal.md)
 - [Day 16: Trees Part 4](/otherReadMes/trees-part-4.md)
 ## Week 6 | Graphs
 - [Graphs](/otherReadMes/graph.md)
