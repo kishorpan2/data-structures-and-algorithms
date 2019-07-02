@@ -20,7 +20,7 @@ This repo contains my practice and adventures in Data Structures and Algorithms.
 - [Day 15: Trees Part 3](./readme/Breadth-firstTraversal.md)
 - [Day 16: Trees Part 4](./readme/max.md)
 ## Week 6 | Sorting
-- [insertionSort](./readme/insertionSort.md)
+- [insertionSort](https://github.com/kishorpan2/data-structures-and-algorithms/blob/readme/code401Challenges/readme/InsertionSort.md)
 - [Breadth-First Traversal](/otherReadMes/graph-part-2.md)
 - [Flight Itinerary](/otherReadMes/graph-part-3.md)
 - [Pre-order Depth-First Traversal](/otherReadMes/graph-part-4.md)
