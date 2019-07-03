@@ -18,8 +18,8 @@ If the next value is smaller, save it as temp value and insert when its respecti
 * time - O(n)
 
 ## Solution
-[Code](../src/main/java/code401Challenges/insertationSort/insertionSort.java) |
-[Test](../src/test/java/code401Challenges/insertationSort/insertionSortTest.java)
+[Code](../src/main/java/code401Challenges/insertionSort/InsertionSort.java) |
+[Test](../src/test/java/code401Challenges/insertionSort/InsertionSortTest.java)
 | [Lecture](lecture.md)
 
 ![WhiteBoard](../assets/insertionSort.jpg)
