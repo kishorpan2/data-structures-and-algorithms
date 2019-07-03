@@ -11,4 +11,4 @@ Quick Sort
 ## Solution
 <!-- Embedded whiteboard image -->
 
-![WhiteBoard](../assets/QuickSort.jpg)
+![WhiteBoard](../assets/quickSort.jpg)
