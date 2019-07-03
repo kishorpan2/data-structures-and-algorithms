@@ -20,7 +20,7 @@ If the next value is smaller, save it as temp value and insert when its respecti
 ## Solution
 [Code](../src/main/java/code401Challenges/insertionSort/InsertionSort.java) |
 [Test](../src/test/java/code401Challenges/insertionSort/InsertionSortTest.java)
-| [Lecture](lecture.md)
+| [Lecture](/lecture.md)
 
 ![WhiteBoard](../assets/insertionSort.jpg)
 
