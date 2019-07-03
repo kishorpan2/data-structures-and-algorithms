@@ -1,4 +1,4 @@
-package code401Challenges.insertationSort;
+package code401Challenges.insertionSort;
 
 import org.junit.Test;
 
