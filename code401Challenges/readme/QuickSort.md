@@ -14,7 +14,7 @@ Time: O(n*log(n))
 Space: O(n)
 
 ## Solution
-
+[Lecture](./QuicksortLecture.md)
 
 ![WhiteBoard](../assets/quickSort.jpg)
 
