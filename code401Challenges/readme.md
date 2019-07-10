@@ -25,10 +25,10 @@ This repo contains my practice and adventures in Data Structures and Algorithms.
 - [Quick Sort](./readme/QuickSort.md)
 - [Pre-order Depth-First Traversal](/otherReadMes/graph-part-4.md)
 ## Week 7 | HashTables
-- [HashTables](/otherReadMes/hashTable.md)
-- [Repeated Word](/otherReadMes/hashtable-part-2.md)
-- [Intersection of 2 Trees](/otherReadMes/hashtable-part-3.md)
-- [Left Join](/otherReadMes/hashtable-part-4.md)
+- [HashTables](./readme/HashTable.md)
+- [Repeated Word](./readme/RepeatedWord.md)
+- [Intersection of 2 Trees](./readme/RepeatedWord.md)
+- [Left Join](./readme/RepeatedWord.md)
 ## Week 8 | Sorting
 - [Insertion Sort](/otherReadMes/sorting-insert.md)
 - [Merge Sort](/otherReadMes/sorting-merge.md)
