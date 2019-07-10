@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6b2b5ae9-fdde-4098-a486-3e2f064165da" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401Challenges/BiniarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401Challenges/BiniarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401Challenges/insertionSort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401Challenges/insertionSort/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401Challenges/insertionSort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401Challenges/insertionSort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/code401Challenges/biniarySearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401Challenges/biniarySearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -41,27 +38,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/readme/QuickSort.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/readme/HashTable.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/hashTable/HashTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
+            <state relative-caret-position="-180">
               <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#153#154#0" expanded="true" />
@@ -71,11 +50,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/hashTable/HashTableTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+            <state>
+              <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/hashTable/RepeatedWord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/hashTable/RepeatedWordTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,21 +109,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/hashTable/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="195">
               <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
               <folding>
-                <element signature="e#170#171#0" expanded="true" />
-                <element signature="e#202#203#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-                <element signature="e#346#347#0" expanded="true" />
                 <element signature="e#365#366#0" expanded="true" />
-                <element signature="e#384#385#0" expanded="true" />
-                <element signature="e#419#420#0" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,7 +131,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/tree/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="60">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -170,9 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/readme/Stack&amp;Queue.md" />
-        <option value="$PROJECT_DIR$/src/test/java/code401Challenges/stacksandqueues/QueueTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/PseudoQueue.java" />
         <option value="$PROJECT_DIR$/src/test/java/code401Challenges/stacksandqueues/PseudoQueueTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/AnimalShelter.java" />
         <option value="$PROJECT_DIR$/src/test/java/code401Challenges/stacksandqueues/AnimalShelterTest.java" />
@@ -221,6 +208,9 @@
         <option value="$PROJECT_DIR$/src/main/java/code401Challenges/hashTable/HashTable.java" />
         <option value="$PROJECT_DIR$/src/test/java/code401Challenges/hashTable/HashTableTest.java" />
         <option value="$PROJECT_DIR$/readme/HashTable.md" />
+        <option value="$PROJECT_DIR$/src/test/java/code401Challenges/hashTable/RepeateWordTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code401Challenges/hashTable/RepeatedWord.java" />
+        <option value="$PROJECT_DIR$/src/test/java/code401Challenges/hashTable/RepeatedWordTest.java" />
       </list>
     </option>
   </component>
@@ -236,6 +226,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -283,13 +274,45 @@
               <item name="code401Challenges" type="b2602c69:ProjectViewProjectNode" />
               <item name="code401Challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code401Challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="hashTable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code401Challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code401Challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="code401Challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code401Challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code401Challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code401Challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code401Challenges" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code401Challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code401Challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code401Challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="hashTable" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -331,7 +354,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HashTableTest.testDoesNotExist">
+  <component name="RunManager" selected="JUnit.RepeatedWordTest.testRepeatedWord">
     <configuration name="BiniarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="code401Challenges.BiniarySearch" />
       <module name="code401Challenges.main" />
@@ -393,17 +416,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="biniarySearchTest.testBiniarySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RepeatedWordTest.testRepeatedWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401Challenges.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code401Challenges.*" />
+          <option name="PATTERN" value="code401Challenges.hashTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="code401Challenges" />
-      <option name="MAIN_CLASS_NAME" value="code401Challenges.biniarySearchTest" />
-      <option name="METHOD_NAME" value="testBiniarySearch" />
+      <option name="PACKAGE_NAME" value="code401Challenges.hashTable" />
+      <option name="MAIN_CLASS_NAME" value="code401Challenges.hashTable.RepeatedWordTest" />
+      <option name="METHOD_NAME" value="testRepeatedWord" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -411,11 +434,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RepeatedWordTest.testRepeatedWord" />
         <item itemvalue="JUnit.HashTableTest.testDoesNotExist" />
         <item itemvalue="JUnit.HashTableTest.testHash" />
         <item itemvalue="JUnit.HashTableTest.addKey" />
         <item itemvalue="Application.BiniarySearch" />
-        <item itemvalue="JUnit.biniarySearchTest.testBiniarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -433,21 +456,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="biniarySearchTest_testBiniarySearch - 2019.07.08 at 12h 50m 21s.xml">
-      <configuration name="biniarySearchTest.testBiniarySearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="biniarySearchTest_testBiniarySearch - 2019.07.08 at 12h 51m 06s.xml">
-      <configuration name="biniarySearchTest.testBiniarySearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HashTableTest_addKey - 2019.07.08 at 21h 56m 23s.xml">
-      <configuration name="HashTableTest.addKey" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HashTableTest_testHash - 2019.07.08 at 22h 22m 40s.xml">
-      <configuration name="HashTableTest.testHash" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HashTableTest_testHash - 2019.07.08 at 22h 23m 24s.xml">
-      <configuration name="HashTableTest.testHash" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HashTableTest_testHash - 2019.07.08 at 22h 23m 43s.xml">
       <configuration name="HashTableTest.testHash" configurationId="JUnit" />
     </history-entry>
@@ -463,12 +471,27 @@
     <history-entry file="HashTableTest_testDoesNotExist - 2019.07.08 at 22h 43m 09s.xml">
       <configuration name="HashTableTest.testDoesNotExist" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RepeatedWordTest_testRepeatedWord - 2019.07.10 at 06h 15m 23s.xml">
+      <configuration name="RepeatedWordTest.testRepeatedWord" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepeatedWordTest_testRepeatedWord - 2019.07.10 at 08h 11m 56s.xml">
+      <configuration name="RepeatedWordTest.testRepeatedWord" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepeatedWordTest_testRepeatedWord - 2019.07.10 at 08h 12m 27s.xml">
+      <configuration name="RepeatedWordTest.testRepeatedWord" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepeatedWordTest_testRepeatedWord - 2019.07.10 at 08h 12m 40s.xml">
+      <configuration name="RepeatedWordTest.testRepeatedWord" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepeatedWordTest_testRepeatedWord - 2019.07.10 at 08h 13m 24s.xml">
+      <configuration name="RepeatedWordTest.testRepeatedWord" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49835527" visible="true" weight="0.20457797" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49835527" visible="true" weight="0.3762518" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -477,7 +500,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50164473" side_tool="true" weight="0.18168813" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4120482" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47831327" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -536,26 +559,6 @@
     <SUITE FILE_PATH="coverage/code401Challenges$InsertionSortTest_insertionSortNull.ic" NAME="InsertionSortTest.insertionSortNull Coverage Results" MODIFIED="1562011367170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/stacksandqueues/MultiBracketValidationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/tree/BinaryTreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/readme/tree.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -830,52 +833,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/tree/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/biniarySearchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/BiniarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/hashTable/Node.java">
+    <entry file="file://$PROJECT_DIR$/readme/QuickSort.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding>
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-          </folding>
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme/HashTable.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -889,23 +857,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme/QuickSort.md">
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/BiniarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme/HashTable.md">
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/hashTable/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+        <state relative-caret-position="195">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding>
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/biniarySearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/tree/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/hashTable/HashTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
+        <state relative-caret-position="-180">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#153#154#0" expanded="true" />
@@ -916,8 +909,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/hashTable/HashTableTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        <state>
+          <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/hashTable/RepeatedWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/hashTable/RepeatedWordTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
