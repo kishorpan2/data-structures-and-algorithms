@@ -28,7 +28,7 @@ This repo contains my practice and adventures in Data Structures and Algorithms.
 - [HashTables](./readme/HashTable.md)
 - [Repeated Word](./readme/RepeatedWord.md)
 - [Intersection of 2 Trees](./readme/TreeIntersection.md)
-- [Left Join](./readme/RepeatedWord.md)
+- [Left Join](./readme/leftJoin.md)
 ## Week 8 | Sorting
 - [Insertion Sort](/otherReadMes/sorting-insert.md)
 - [Merge Sort](/otherReadMes/sorting-merge.md)
