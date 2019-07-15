@@ -30,7 +30,7 @@ This repo contains my practice and adventures in Data Structures and Algorithms.
 - [Intersection of 2 Trees](./readme/TreeIntersection.md)
 - [Left Join](./readme/leftJoin.md)
 ## Week 8 | Sorting
-- [Insertion Sort](/otherReadMes/sorting-insert.md)
+- [Graph](./readme/Graph.md)
 - [Merge Sort](/otherReadMes/sorting-merge.md)
 - [Quick Sort](/otherReadMes/sorting-quick.md)
 - [Radix Sort](/otherReadMes/sorting-radix.md)
