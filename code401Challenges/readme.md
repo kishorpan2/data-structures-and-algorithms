@@ -31,6 +31,6 @@ This repo contains my practice and adventures in Data Structures and Algorithms.
 - [Left Join](./readme/leftJoin.md)
 ## Week 8 | Sorting
 - [Graph](./readme/Graph.md)
-- [Merge Sort](/otherReadMes/sorting-merge.md)
+- [Breadth First](./readme/breadthfirst.md)
 - [Quick Sort](/otherReadMes/sorting-quick.md)
 - [Radix Sort](/otherReadMes/sorting-radix.md)
