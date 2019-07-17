@@ -32,5 +32,5 @@ This repo contains my practice and adventures in Data Structures and Algorithms.
 ## Week 8 | Sorting
 - [Graph](./readme/Graph.md)
 - [Breadth First](./readme/breadthfirst.md)
-- [Quick Sort](/otherReadMes/sorting-quick.md)
+- [Flight Itinerary](./readme/flightItinerary.md)
 - [Radix Sort](/otherReadMes/sorting-radix.md)
