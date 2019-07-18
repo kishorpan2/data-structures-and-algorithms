@@ -33,4 +33,4 @@ This repo contains my practice and adventures in Data Structures and Algorithms.
 - [Graph](./readme/Graph.md)
 - [Breadth First](./readme/breadthfirst.md)
 - [Flight Itinerary](./readme/flightItinerary.md)
-- [Radix Sort](/otherReadMes/sorting-radix.md)
+- [Depth-First Traversal ](./readme/Depth-first.md)
